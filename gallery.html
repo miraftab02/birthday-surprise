@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Little Gallery 📸</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-gallery">
+  <nav class="topbar">
+    <a class="brand" href="index.html">✦ for you</a>
+    <span>chapter 03 / 05</span>
+  </nav>
+
+  <main class="gallery-page">
+    <header class="section-heading">
+      <div class="eyebrow">A few frames worth keeping</div>
+      <h1>Little moments,<br><span>big memories.</span></h1>
+     
+    </header>
+
+    <section class="gallery-grid">
+      <button class="photo-card photo-1" data-title="Memory 01" type="button">
+        <img src="assets/photo1.png" alt="Photo placeholder 1">
+        <span>01</span>
+      </button>
+      <button class="photo-card photo-2" data-title="Memory 02" type="button">
+        <img src="assets/photo2.png" alt="Photo placeholder 2">
+        <span>02</span>
+      </button>
+      <button class="photo-card photo-3" data-title="Memory 03" type="button">
+        <img src="assets/photo3.jpg" alt="Photo placeholder 3">
+        <span>03</span>
+      </button>
+      <button class="photo-card photo-4" data-title="Memory 04" type="button">
+        <img src="assets/photo4.png" alt="Photo placeholder 4">
+        <span>04</span>
+      </button>
+      <button class="photo-card photo-5" data-title="Memory 05" type="button">
+        <img src="assets/photo5.jpg" alt="Photo placeholder 5">
+        <span>05</span>
+      </button>
+      <button class="photo-card photo-6" data-title="Memory 06" type="button">
+        <img src="assets/photo6.jpg" alt="Photo placeholder 6">
+        <span>06</span>
+      </button>
+    </section>
+
+    <div class="center-action">
+      <a class="btn btn-primary" href="propose.html">One last page →</a>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close">×</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <p id="lightboxTitle"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

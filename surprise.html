@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Birthday Surprise 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-surprise">
+  <nav class="topbar">
+    <a class="brand" href="index.html">✦ for my favorite person</a>
+    <span>chapter 02 / 05</span>
+  </nav>
+
+  <main class="surprise-wrap">
+    <section class="letter-card">
+      <div class="card-label">A birthday wish from my heart 💌</div>
+      <h1>Happy Birthday,<br><span>my sweetest love.</span></h1>
+
+      <div class="typing-box">
+        <p id="birthdayTyping"></p><span class="cursor">|</span>
+      </div>
+
+      <div class="cake-wrap">
+        <div class="cake-stage" id="cakeStage">
+          <div class="cake" id="birthdayCake">
+            <div class="candles" aria-label="Birthday candles">
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+              <span class="candle"><i class="flame"></i></span>
+            </div>
+          </div>
+          <div class="cake-base"></div>
+        </div>
+        <div class="sparkles">✨ Make a wish, birthday girl ✨</div>
+        <div class="blow-note" id="blowNote">First, blow out the candles to unlock the next surprise. 💗</div>
+      </div>
+
+      <div class="button-row">
+        <button class="btn btn-primary" id="confettiBtn" type="button">🕯️ Blow the Candles</button>
+        <a class="btn btn-ghost" id="nextSurpriseBtn" href="gallery.html">🎉 Continue to the Next Surprise →</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
